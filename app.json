@@ -1,12 +1,21 @@
 {
-  "name": "todo-app",
-  "displayName": "todo-app",
+  "name": "Todo",
+  "displayName": "Todo",
   "expo": {
-    "name": "todo-app",
-    "slug": "expo-template-bare",
+    "name": "Todo",
+    "slug": "Todo",
+    "icon": "./icon.png",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tmaa.todo",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.tmaa.todo",
+      "versionCode": 1
+    }
   }
 }
