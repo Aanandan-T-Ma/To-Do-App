@@ -1,0 +1,12 @@
+{
+  "name": "todo-app",
+  "displayName": "todo-app",
+  "expo": {
+    "name": "todo-app",
+    "slug": "expo-template-bare",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
